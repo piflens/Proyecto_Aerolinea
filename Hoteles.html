@@ -11,27 +11,28 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg  navbar-light bg-light">
-            <a class="navbar-brand" href="#">Aerolínea Vuela Lejos</a>
+        <nav class="navbar navbar-expand-lg  navbar-dark " style="background-color:#1b0088;">
+            <a class="navbar-brand" href="Index.html">Aerolínea Vuela Lejos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#desplegable"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="desplegable">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Destinos </a>
+                    <a class="nav-item nav-link" href="Destinos.html">Destinos </a>
                     <a class="nav-item nav-link" href="Hoteles.html">Hoteles</a>
-                    <a class="nav-item nav-link" href="#">Ayuda</a>
-                    <a class="nav-item nav-link" href="#">Contacto</a>
+                    <a class="nav-item nav-link" href="Ayuda.html">Ayuda</a>
+                    <a class="nav-item nav-link" href="Contacto.html">Contacto</a>
                 </div>
             </div>
         </nav>
     </header>
     <main>
         <div class="container-fluid mt-5 mb-5 ">
+            <p class="h2 text-dark text-center mt-4 mb-4">Hoteles Disponibles</p>
             <div class="row justify-content-center">
                 <div class="card-deck">
-                    <div class="col">
+                    <div class="col-xs-12 col-lg-4">
                         <div class="card" style="width: 18rem">
                             <img class="card-img-top" src="images/Hoteles/FarandaGrand.jpg" alt="Card image cap" />
                             <div class="card-body">
@@ -43,9 +44,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-xs-12 col-lg-4">
                         <div class="card" style="width: 18rem">
-                            <img class="card-img-top" src="images/Hoteles/FarandaGrand.jpg" alt="Card image cap" />
+                            <img class="card-img-top" src="images/Hoteles/HotelPresidente.jpg" alt="Card image cap" />
                             <div class="card-body">
                                 <h5 class="card-title">Hotel Faranda Grand</h5>
                                 <p class="card-text">
@@ -55,9 +56,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-xs-12 col-lg-4">
                         <div class="card" style="width: 18rem">
-                            <img class="card-img-top" src="images/Hoteles/FarandaGrand.jpg" alt="Card image cap" />
+                            <img class="card-img-top" src="images/Hoteles/HotelValleNevado.jpg" alt="Card image cap" />
                             <div class="card-body">
                                 <h5 class="card-title">Hotel Faranda Grand</h5>
                                 <p class="card-text">
@@ -69,12 +70,13 @@
                     </div>
                 </div>
             </div>
-            <div class="collapse mt-5" id="expandir">
+            <div class="collapse mt-5 mb-5" id="expandir">
                 <div class="row justify-content-center">
                     <div class="card-deck">
-                        <div class="col">
+                        <div class="col-xs-12 col-lg-4">
                             <div class="card" style="width: 18rem">
-                                <img class="card-img-top" src="images/Hoteles/FarandaGrand.jpg" alt="Card image cap" />
+                                <img class="card-img-top" src="images/Hoteles/HotelValleNevado.jpg"
+                                    alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Hotel Faranda Grand</h5>
                                     <p class="card-text">
@@ -84,9 +86,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-xs-12 col-lg-4">
                             <div class="card" style="width: 18rem">
-                                <img class="card-img-top" src="images/Hoteles/FarandaGrand.jpg" alt="Card image cap" />
+                                <img class="card-img-top" src="images/Hoteles/HotelPresidente.jpg"
+                                    alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Hotel Faranda Grand</h5>
                                     <p class="card-text">
@@ -96,7 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-xs-12 col-lg-4">
                             <div class="card" style="width: 18rem">
                                 <img class="card-img-top" src="images/Hoteles/FarandaGrand.jpg" alt="Card image cap" />
                                 <div class="card-body">
@@ -111,14 +114,47 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mt-5 mb-5">
+            <div class="row justify-content-center mt-4 mb-5">
                 <button type="submit" class="btn btn-dark " data-toggle="collapse" data-target="#expandir"
                     aria-expanded="false">Ver
                     más opciones</button>
             </div>
+        </div>
     </main>
     <footer>
-
+        <div class="container-fluid " style="background-color:#1b0088;">
+            <div class="row text-center ">
+                <!--dividir segun cantidad de col en 12-->
+                <div class="col-xs-12 col-lg-4 mb-2 mt-2">
+                    <p class="text-white h5" type="number">Nosotros</p>
+                    <div>
+                        <a class="text-white" href="#">Destinos</a>
+                    </div>
+                    <div>
+                        <a class="text-white" href="#">Hoteles</a>
+                    </div>
+                    <div>
+                        <a class="text-white" href="#">Ayuda</a>
+                    </div>
+                    <div>
+                        <a class="text-white" href="#">Contacto</a>
+                    </div>
+                </div>
+                <div class=" text-white col-xs-12 col-lg-4 mb-2 mt-2">
+                    <i class="fas fa-solid fa-plane fa-2x"></i>
+                </div>
+                <div class=" text-col-xs-12 col-lg-4 mb-2 mt-2">
+                    <p class="text-white h5" type="number">Telefono</p>
+                    <div class="text-white">
+                        <i class="fas fa-solid fa-phone mr-1"></i>996040090
+                    </div>
+                    <div class="text-white">
+                        <p class="text-white h5" type="number"> Email</p>
+                        <i class="fas fa-solid fa-paper-plane mr-1"></i>contacto@aerolinea.cl
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
         integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous">
