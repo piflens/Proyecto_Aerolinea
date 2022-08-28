@@ -1,8 +1,10 @@
+/* para darle el tamaño al jumbotron*/
 .jumbotron{
     background-image:url('../images/Contacto/d2.jpg');
     background-size: cover;
     background-position: 40%;
 }
+/*para darle el efecto a las letras del jumbotron*/
 .colores{
   background: rgba(0,0,0,.4);
   color: #fff;
@@ -10,9 +12,11 @@
   width: 100%;
   line-height: 1;
 }
+/*cagrego un borde a los inputs de color azul*/
 .form-control{
     border-right: 5px solid #1b0088;
 }
+/*le doy un estilo al borde del card sencillo*/
 .card-formulario{
     border: 1px solid;
 }
