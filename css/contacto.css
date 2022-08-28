@@ -1,0 +1,18 @@
+.jumbotron{
+    background-image:url('../images/Contacto/d2.jpg');
+    background-size: cover;
+    background-position: 40%;
+}
+.colores{
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  font-weight: 100;
+  width: 100%;
+  line-height: 1;
+}
+.form-control{
+    border-right: 5px solid #1b0088;
+}
+.card-formulario{
+    border: 1px solid;
+}
