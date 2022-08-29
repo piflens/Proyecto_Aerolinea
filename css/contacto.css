@@ -15,8 +15,13 @@
 /*cagrego un borde a los inputs de color azul*/
 .form-control{
     border-right: 5px solid #1b0088;
+   
 }
 /*le doy un estilo al borde del card sencillo*/
 .card-formulario{
     border: 1px solid;
+}
+/*color de la etiqueta a en el form*/
+.click{
+ color:#1b0088;
 }
